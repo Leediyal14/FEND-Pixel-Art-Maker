@@ -1,0 +1,53 @@
+body {
+    text-align: center;
+    background-image: url("https://images7.alphacoders.com/767/767597.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: crimson;
+}
+
+h1 {
+    font-family: cursive, Comic Sans MS;
+    font-style: italic;
+    font-size: 45px;
+    margin: 0.4em;
+    padding: 20px 0 40px 0;
+}
+
+h2 {
+    margin: 1em 5 0.50em;
+    font-family: cursive;
+    font-size: 22px;
+    padding: 20px;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+p {
+    font-weight: bold;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 5em;
+}
